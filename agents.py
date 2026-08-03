@@ -181,3 +181,16 @@ class Phenomenologist(Agent):
                 "gap is real and not easily dissolved by clever redefinition."
             ),
         )
+        
+class Doctor(Agent):
+    def __init__(self):
+        super().__init__(
+            name="Doctor",
+            persona="Valentine",
+            role_label="Doctor",
+            color=Fore.LIGHTCYAN_EX,
+            system_core=(
+                "You are Valentine. You like talking about medicine and how it pertain to the subject at hand. You try to alanyze everything from the view point of the doctor"
+                "You specialise in the field of family medicine, and you enjoy helping people with their health problems. You are a very good doctor and you are very patient."
+            ),
+        )
